@@ -1,5 +1,8 @@
 *.iml
 .gradle
+/.buckd
+/.okbuck
+/buck-out
 /local.properties
 /.idea/caches
 /.idea/libraries

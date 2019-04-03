@@ -1,1 +1,1 @@
-{"install -r //app:bin_debug --config-file .okbuck/config/okbuck.buckconfig":{"expectedNumberOfParsedRules":0,"expectedNumberOfParsedBUCKFiles":0},"build //app:bin_debug --config-file .okbuck/config/okbuck.buckconfig":{"expectedNumberOfParsedRules":0,"expectedNumberOfParsedBUCKFiles":0}}
+{"install -r //app:bin_debug --config-file .okbuck/config/okbuck.buckconfig":{"expectedNumberOfParsedRules":368,"expectedNumberOfParsedBUCKFiles":74},"build //app:bin_debug --config-file .okbuck/config/okbuck.buckconfig":{"expectedNumberOfParsedRules":0,"expectedNumberOfParsedBUCKFiles":0}}
