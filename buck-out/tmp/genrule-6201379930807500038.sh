@@ -1,0 +1,1 @@
+java -jar -Xmx256m /home/pedroimai/Projects/okbucktutorial/buck-out/gen/.okbuck/workspace/manifest-merger/okbuck_manifest_merger.jar --main $SRCDIR/src/main/AndroidManifest.xml --property MIN_SDK_VERSION=16 --property TARGET_SDK_VERSION=28 --property PACKAGE=com.pedroimai.okbucktutorial --property VERSION_CODE=1 --property VERSION_NAME=1.0 --debuggable true --out $OUT

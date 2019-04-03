@@ -1,0 +1,1 @@
+com/pedroimai/libone/BuildConfig 0351deaec32e6a253da074f0247a15e06427ba45

@@ -1,0 +1,7 @@
+com/android/tools/build/jetifier/standalone/Main 9f5c4823fe3e87ded20ee44a10bb75a4eb055a1a
+com/android/tools/build/jetifier/standalone/Main$Companion 816dc7c80b6ede42eccc5aa2124039682b656061
+com/android/tools/build/jetifier/standalone/TopOfTreeBuilder 2acd0062c154ec958b594b7bfda3dcdd4b68630f
+com/android/tools/build/jetifier/standalone/TopOfTreeBuilder$Companion e42a541dc5ad51f7728fbc1e56bb1ca81a7d38df
+com/android/tools/build/jetifier/standalone/TopOfTreeBuilder$FileFilter 67096118220b944a042d2f2f7eec863ebe7a6cd9
+com/android/tools/build/jetifier/standalone/TopOfTreeBuilder$rebuildFrom$archivesFilter$1 ef520534875576b13a3600b0ede6409a7baa8f8d
+com/android/tools/build/jetifier/standalone/TopOfTreeBuilder$rebuildFrom$pomFilter$1 ecbbcf0a759210246b97aef9cf0b749f3196feaa

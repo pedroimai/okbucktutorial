@@ -1,0 +1,91 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:3:5-43
+	android:versionName
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:4:5-28
+	xmlns:android
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:7:5-9:41
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/activity/__unpack_activity.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/appcompat/__unpack_appcompat-resources.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/appcompat/__unpack_appcompat.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/arch/core/__unpack_core-runtime.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/asynclayoutinflater/__unpack_asynclayoutinflater.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/constraintlayout/__unpack_constraintlayout.aar#aar_unzip__/AndroidManifest.xml:5:5-7:41
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/coordinatorlayout/__unpack_coordinatorlayout.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/core/__unpack_core-ktx.aar#aar_unzip__/AndroidManifest.xml:5:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/core/__unpack_core.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/cursoradapter/__unpack_cursoradapter.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/customview/__unpack_customview.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/documentfile/__unpack_documentfile.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/drawerlayout/__unpack_drawerlayout.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/fragment/__unpack_fragment.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/interpolator/__unpack_interpolator.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/legacy/__unpack_legacy-support-core-ui.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/legacy/__unpack_legacy-support-core-utils.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/lifecycle/__unpack_lifecycle-livedata-core.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/lifecycle/__unpack_lifecycle-livedata.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/lifecycle/__unpack_lifecycle-runtime.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/lifecycle/__unpack_lifecycle-viewmodel.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/loader/__unpack_loader.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/localbroadcastmanager/__unpack_localbroadcastmanager.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/multidex/__unpack_multidex.aar#aar_unzip__/AndroidManifest.xml:20:5-43
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/print/__unpack_print.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/savedstate/__unpack_savedstate.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/slidingpanelayout/__unpack_slidingpanelayout.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/swiperefreshlayout/__unpack_swiperefreshlayout.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/vectordrawable/__unpack_vectordrawable-animated.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/vectordrawable/__unpack_vectordrawable.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/versionedparcelable/__unpack_versionedparcelable.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/viewpager/__unpack_viewpager.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/com/google/dagger/__unpack_dagger-android-support.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/com/google/dagger/__unpack_dagger-android.aar#aar_unzip__/AndroidManifest.xml:20:5-44
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_lib_debug/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:8:9-35
+application
+ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:11:5-27:19
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/constraintlayout/__unpack_constraintlayout.aar#aar_unzip__/AndroidManifest.xml:9:5-20
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/core/__unpack_core.aar#aar_unzip__/AndroidManifest.xml:22:5-89
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/versionedparcelable/__unpack_versionedparcelable.aar#aar_unzip__/AndroidManifest.xml:22:5-23:19
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_lib_debug/AndroidManifest.xml:11:5-27:19
+	android:label
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:16:9-41
+	android:supportsRtl
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:18:9-35
+	android:appComponentFactory
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/bin/.okbuck/ext/androidx/core/__unpack_core.aar#aar_unzip__/AndroidManifest.xml:22:18-86
+	android:debuggable
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:14:9-34
+	android:roundIcon
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:17:9-54
+	android:allowBackup
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:15:9-43
+	android:theme
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:19:9-40
+	android:name
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:12:9-61
+activity#com.pedroimai.okbucktutorial.MainActivity
+ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:20:9-26:20
+MERGED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_lib_debug/AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:20:19-75
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/pedroimai/Projects/okbucktutorial/buck-out/gen/app/manifest_bin_debug/AndroidManifest.xml:24:27-74

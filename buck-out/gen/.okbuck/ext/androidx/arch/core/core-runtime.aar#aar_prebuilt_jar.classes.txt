@@ -1,0 +1,6 @@
+androidx/arch/core/executor/ArchTaskExecutor f89e57a4e4e215609ded1cea73f59c39b579ac91
+androidx/arch/core/executor/ArchTaskExecutor$1 d375bcc01d6c4de581f015818b0083ea27cce60c
+androidx/arch/core/executor/ArchTaskExecutor$2 494a85823df6832bef9e44838540c6eab16806bd
+androidx/arch/core/executor/DefaultTaskExecutor 26deeb7fca4103188a72d1ae8956d494105297d2
+androidx/arch/core/executor/DefaultTaskExecutor$1 4dc9ae241562e2a94a66c3fdd0df6da2409cc14c
+androidx/arch/core/executor/TaskExecutor e579ff04a8840c565572d02443037299c1e02ff3

@@ -1,0 +1,13 @@
+com/android/builder/testing/api/DeviceConfig 2b79fb9edd8af6e1ce992289e7f332b119e44f1b
+com/android/builder/testing/api/DeviceConfig$1 ae7818a6a29d75cc7631b516a08fe1e6a82c7ff2
+com/android/builder/testing/api/DeviceConfig$Builder 06c6337cbf5621a1408b18dfae20125ef0c8601b
+com/android/builder/testing/api/DeviceConfig$Builder$1 9ac77a349fbe49dc303d7d177aab7d829ceafe2f
+com/android/builder/testing/api/DeviceConfig$Builder$Values 2e52f41e52d9a08ccf1096fff38d65fd2686ab4a
+com/android/builder/testing/api/DeviceConfig$Category 18b075f43e27b956b41247e48787e3db807e1607
+com/android/builder/testing/api/DeviceConfigProvider 139ededfdaf1676e429351614ea881ecbec9e4df
+com/android/builder/testing/api/DeviceConfigProviderImpl ded401f309b225a45029b5430dee7256c51228e3
+com/android/builder/testing/api/DeviceConnector c196b6c985a2363b91031501a97317c824933b2d
+com/android/builder/testing/api/DeviceException e6db4896fffe0317ede6a515ffbad1d1fe55ec8d
+com/android/builder/testing/api/DeviceProvider 99f9426449403f5d68ac4c26b1951b313be43c4c
+com/android/builder/testing/api/TestException 0653fad3ec01e6d4948d4e7ea15870eae0b873b5
+com/android/builder/testing/api/TestServer faaa70dafd8d883e1f91c2c86f05712facfaec87

@@ -1,0 +1,129 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.3.21'
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+
+
+        classpath "com.uber:okbuck:0.47.0"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+apply plugin: "com.uber.okbuck"
+
+okbuck {
+    exopackage = [
+            "app": true
+    ]
+
+    appLibDependencies = [
+            "app": [
+                    "buck-android-support",
+                    "androidx.multidex:multidex",
+                    "libone:debug"
+            ]
+    ]
+
+//    linearAllocHardLimit = [
+//            "app": 7194304
+//    ]
+    primaryDexPatterns = [
+            "app": [
+                    "^com/pedroimai/okbucktutorial/AppShell^",
+                    "^androidx/multidex/",
+                    "^com/facebook/buck/android/support/exopackage/",
+                    "^com/pedroimai/okbucktutorial/BuildConfig^",
+                    //"^com/pedroimai/libone/Contact^"
+
+            ]
+    ]
+
+    lint {
+        disabled = true
+    }
+    jetifier {
+        aarOnly = true
+        exclude = [
+                "androidx.*"
+        ]
+
+    }
+
+    intellij {
+        sources = true
+    }
+
+    wrapper {
+        watch += ["**/*.sq"]
+    }
+
+    libraryBuildConfig = false
+
+    externalDependencies {
+        downloadInBuck = false
+        versionless = true
+        allowLatestVersion = [
+                "com.google.auto.value:auto-value",
+                "com.google.code.findbugs:jsr305",
+                "org.ow2.asm:asm",
+                "org.ow2.asm:asm-commons",
+                "com.google.protobuf:protobuf-java",
+                "commons-codec:commons-codec",
+                "com.google.errorprone:error_prone_annotations",
+                "com.google.auto:auto-common",
+                "com.google.guava:guava",
+                "org.apache.httpcomponents:httpcore",
+                "org.jetbrains.kotlin:kotlin-stdlib",
+                "org.jetbrains.kotlin:kotlin-reflect",
+                "org.jetbrains.kotlin:kotlin-stdlib-common",
+                "org.jetbrains.kotlin:kotlin-stdlib-jdk7",
+                "org.ow2.asm:asm-tree",
+                "org.apache.httpcomponents:httpclient",
+                "org.bouncycastle:bcprov-jdk15on",
+                "commons-logging:commons-logging",
+                "com.squareup:javapoet",
+                "org.checkerframework:checker-compat-qual",
+                "com.google.code.gson:gson",
+                "org.apache.commons:commons-compress",
+                "org.apache.httpcomponents:httpmime",
+                "androidx.lifecycle:lifecycle-common",
+                "androidx.annotation:annotation",
+                "androidx.vectordrawable:vectordrawable",
+                "androidx.core:core",
+                "androidx.appcompat:appcompat",
+                "androidx.lifecycle:lifecycle-runtime",
+                "androidx.fragment:fragment",
+                "androidx.versionedparcelable:versionedparcelable",
+                "androidx.lifecycle:lifecycle-viewmodel",
+                "androidx.collection:collection"
+
+
+        ]
+        allowAllVersions = [
+                "org.robolectric:android-all",
+        ]
+    }
+
+
+}
