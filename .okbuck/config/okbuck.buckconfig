@@ -1,9 +1,0 @@
-[android]
-    build_tools_version = 28.0.2
-    target = android-28
-
-[kotlin]
-    kotlin_home = //.okbuck/workspace/kotlin_home:kotlin_home
-
-[tools]
-    proguard = //.okbuck/ext/net/sf/proguard:proguard-base.jar

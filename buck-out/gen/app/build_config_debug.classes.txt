@@ -1,1 +1,0 @@
-com/pedroimai/okbucktutorial/BuildConfig 1e99e82d6788d91c238516240c06ca75d520eeda

@@ -1,3 +1,0 @@
-com/android/dvlib/DeviceSchema b7416ccda70efe808d5d1f2d8ef3ea4b67863691
-com/android/dvlib/DeviceSchema$1 299ef8265a07a31278367b58b23d4203be19d347
-com/android/dvlib/DeviceSchema$DevicesValidationHandler e1b263baabbe32185838309e0fce32553338df15
